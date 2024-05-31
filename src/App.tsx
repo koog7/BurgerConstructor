@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import { useState } from 'react';
 import IngredientsComponent  from "./Components/Ingredients.tsx";
 import Burger from "./Components/Burger.tsx";
@@ -41,7 +41,7 @@ function App() {
           <Burger counts={counts} />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
